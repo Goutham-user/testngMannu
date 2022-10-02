@@ -9,7 +9,7 @@ public class TestngDemo {
   @Test
   public void f() {
 	  System.out.println("test");
-	  System.setProperty("webdriver.chrome.driver", "D:\\testNg\\test\\testng\\webdrivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", ".\\webdrivers\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("http://google.com");
 		
